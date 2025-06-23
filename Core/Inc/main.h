@@ -58,6 +58,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CARD_DETECT_Pin GPIO_PIN_0
+#define CARD_DETECT_GPIO_Port GPIOC
+#define SPI2_CS_Pin GPIO_PIN_6
+#define SPI2_CS_GPIO_Port GPIOC
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
